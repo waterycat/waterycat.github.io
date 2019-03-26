@@ -2,7 +2,6 @@
 body{background: black;}
 li{list-style-type: none;}
 .wrap{width:1920px;height:660px; margin:10px auto;}
-.wrap .clock{height: 220px;}
 .wrap .clock ul li{width: 120px;height: 220px;float: left;margin:0 10px;}
 .wrap .clock ul li ul{position: relative;}
 .wrap .clock ul li ul li{width:90px;height: 20px;display: block;}
@@ -15,6 +14,4 @@ li{list-style-type: none;}
 .wrap .clock ul li ul li:nth-child(7){position:absolute;top: 200px;left: 15px;}
 .wrap .clock ul .point{width: 30px;}
 .wrap .clock ul .point span{display:block;height: 20px;width: 20px;background: #a3ff19;margin:60px 15px;}
-.wrap .date{position:relative;height: 100px; color: #a3ff19; font-size:80px;margin-top: 10px;border-bottom:3px solid red;}
-.wrap .date span:first-child{float: left;margin-left: 10px;}
-.wrap .date span:last-child{float: right;margin-right:30px;}
+
