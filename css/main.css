@@ -1,17 +1,20 @@
 *{margin:0;padding: 0;}
 body{background: black;}
 li{list-style-type: none;}
-.wrap{width:1920px;height:660px; margin:10px auto;}
-.wrap .clock ul li{width: 120px;height: 220px;float: left;margin:0 10px;}
+.wrap{width:960px;height:330px; margin:100px auto;}/* 容器 */
+.wrap .clock{height: 200px;}/* 钟表下面空间 */
+.wrap .clock ul li{width: 55px;height: 220px;float: left;margin:0 10px;}/* 个字间距 */
 .wrap .clock ul li ul{position: relative;}
-.wrap .clock ul li ul li{width:90px;height: 20px;display: block;}
-.wrap .clock ul li ul li:nth-child(1){position:absolute;left: 15px;}
-.wrap .clock ul li ul li:nth-child(2){position:absolute;transform:rotateZ(90deg);top:0px;left:-35px;top:50px;}
-.wrap .clock ul li ul li:nth-child(3){position:absolute;transform:rotateZ(90deg);top:0px;left:65px;top:50px;}
-.wrap .clock ul li ul li:nth-child(4){position:absolute;top: 100px;left: 15px;}
-.wrap .clock ul li ul li:nth-child(5){position:absolute;transform:rotateZ(90deg);top:150px;left:-35px;}
-.wrap .clock ul li ul li:nth-child(6){position:absolute;transform:rotateZ(90deg);left:65px;top: 150px;}
-.wrap .clock ul li ul li:nth-child(7){position:absolute;top: 200px;left: 15px;}
-.wrap .clock ul .point{width: 30px;}
-.wrap .clock ul .point span{display:block;height: 20px;width: 20px;background: #a3ff19;margin:60px 15px;}
+.wrap .clock ul li ul li{width:45px;height: 10px;display: block;}/* 图片大小 */
+.wrap .clock ul li ul li:nth-child(1){position:absolute;left: 37px;}/* 一横 */
+.wrap .clock ul li ul li:nth-child(2){position:absolute;transform:rotateZ(90deg);left:15px;top:28px;}/* 一竖 */
+.wrap .clock ul li ul li:nth-child(3){position:absolute;transform:rotateZ(90deg);left:65px;top:28px;}/* 二竖 */
+.wrap .clock ul li ul li:nth-child(4){position:absolute;top: 50px;left: 37px;}/* 二横 */
+.wrap .clock ul li ul li:nth-child(5){position:absolute;transform:rotateZ(90deg);top:78px;left:15px;}/* 三竖 */
+.wrap .clock ul li ul li:nth-child(6){position:absolute;transform:rotateZ(90deg);left:65px;top: 78px;}/* 四竖 */
+.wrap .clock ul li ul li:nth-child(7){position:absolute;top: 100px;left: 37px;}/* 三横 */
+.wrap .clock ul .point{width: 10px;}/* 组字间距 */
+.wrap .clock ul .point span{display:block;height: 10px;width: 10px;background: #a3ff19;margin:32px 42px;}/* 点点*/
 
+.wrap .date span:first-child{float: left;margin-left: 10px;}
+.wrap .date span:last-child{float: right;margin-right:30px;}
