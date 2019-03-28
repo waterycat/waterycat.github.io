@@ -1,17 +1,18 @@
-﻿
 body{background: black;}
 
 
-.wrap .clock{height: 200px;}/* 钟表下面空间 */
-.wrap .clock ul li{width: 55px;height: 220px;float: left;margin:0 10px;}/* 个字间距 */
-.wrap .clock ul li ul{position: relative;}
+.wrap .clock{
+	height: 100px;
+}/* 钟表下面空间 */
+.wrap .clock ul li{width: 55px;height: 10px;float: left;margin:0 10px;}/* 个字间距 */
+.wrap .clock ul li ul{position: relative;}/* 定位 */
 .wrap .clock ul li ul li{width:45px;height: 10px;display: block;}/* 图片大小 */
-.wrap .clock ul li ul li:nth-child(1){position:absolute;left: 37px;}/* 一横 */
-.wrap .clock ul li ul li:nth-child(2){position:absolute;transform:rotateZ(90deg);left:15px;top:28px;}/* 一竖 */
-.wrap .clock ul li ul li:nth-child(3){position:absolute;transform:rotateZ(90deg);left:65px;top:28px;}/* 二竖 */
-.wrap .clock ul li ul li:nth-child(4){position:absolute;top: 50px;left: 37px;}/* 二横 */
-.wrap .clock ul li ul li:nth-child(5){position:absolute;transform:rotateZ(90deg);top:78px;left:15px;}/* 三竖 */
-.wrap .clock ul li ul li:nth-child(6){position:absolute;transform:rotateZ(90deg);left:65px;top: 78px;}/* 四竖 */
-.wrap .clock ul li ul li:nth-child(7){position:absolute;top: 100px;left: 37px;}/* 三横 */
+.wrap .clock ul li ul li:nth-child(1){position:absolute;left: 510px;}/* 一横 */
+.wrap .clock ul li ul li:nth-child(2){position:absolute;transform:rotateZ(90deg);left:493px;top:32px;}/* 一竖 */
+.wrap .clock ul li ul li:nth-child(3){position:absolute;transform:rotateZ(90deg);left:541px;top:32px;}/* 二竖 */
+.wrap .clock ul li ul li:nth-child(4){position:absolute;top: 50px;left: 510px;}/* 二横 */
+.wrap .clock ul li ul li:nth-child(5){position:absolute;transform:rotateZ(90deg);left:493px;top:82px}/* 三竖 */
+.wrap .clock ul li ul li:nth-child(6){position:absolute;transform:rotateZ(90deg);left:541px;top: 82px;}/* 四竖 */
+.wrap .clock ul li ul li:nth-child(7){position:absolute;top: 100px;left: 510px;}/* 三横 */
 .wrap .clock ul .point{width: 10px;}/* 组字间距 */
-.wrap .clock ul .point span{display:block;height: 10px;width: 10px;background: #a3ff19;margin:32px 42px;}/* 点点*/
+.wrap .clock ul .point span{display:block;height: 10px;width: 10px;background: #a3ff19;margin:32px 515px;}/* 点点*/
